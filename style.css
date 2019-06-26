@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+    display: flex
+}
+
+#navBar{
+    height: 90vh;
+    width: 10%;
+    padding: 5vh 0;
+    position: sticky;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 2px 0px 5px  lightgrey
+}
+.socialIcons{
+    display: flex;
+    flex-direction: column;
+}
+.socialIcons img{
+    margin: 50% 0
+}
+#header{
+    width: 90%;
+    height: 45vh;
+    box-shadow:12px 0px 25px  lightgrey
+}
+#header h1{
+    margin-left: 10%;
+    font-size: 4em;
+    color: rgb(11, 11, 85);
+}
+.navButtons{
+    padding: 2% 5% 0% 5%;
+    text-align: end
+}
+.navButtons a{
+    margin: 0 1%;
+    text-decoration: none;
+    color: rgb(11, 11, 85);
+    font-size: 1.3em
+}
+.floatImg{
+    position: absolute;
+    top: 20%;
+    left: 65%;
+    padding: 8%;
+    background: rgb(219, 11, 63); 
+    box-shadow: 2px 0px 5px  lightgrey;
+    border-radius: 10px
+}
